@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <form id="registration-form">
+  <form id="registration-form" novalidate>
     <label for="username">Username:</label>
     <input type="text" id="username" required>
 
@@ -19,7 +19,7 @@
     <input type="password" id="password" required>
 
     <button type="submit">Register</button>
-    <div id="form-feedback"></div>
+    <div id="form-feedback" style="display: none;"></div>
   </form>
   <script src="script.js"></script>
 </body>
